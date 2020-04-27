@@ -1,0 +1,38 @@
+.btn-landing {
+  margin: auto;
+  border: 3px solid black;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-landing-text {
+  color: black;
+}
+
+.btn-landing-text:hover{
+  font-size: 26px;
+}
+
+.btn-menu {
+  border: 3px solid black;
+  margin: auto;
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  box-shadow: 2px 2px 7px $gray;
+}
+
+.btn-menu:hover {
+  font-size: 22px;
+}
+

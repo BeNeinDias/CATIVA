@@ -8,6 +8,33 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+h1 {
+  font-weight: 900;
+  font-size: 32px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+p {
+  font-weight: lighter;
+  font-weight: 16px;
+}
+
+
+a {
+    font-size: 24px;
+  }
+
 // Your CSS partials
+@import "bourbon";
 @import "components/index";
+@import "components/button";
 @import "pages/index";

@@ -1,1 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
 // Specific CSS for your home-page
+.landing_video {
+  width: 100vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.landing-container {
+  text-align: center;
+  height: 100vh;
+}
+
+i {
+  padding-left: 10px;
+  font-size: 24px;
+}

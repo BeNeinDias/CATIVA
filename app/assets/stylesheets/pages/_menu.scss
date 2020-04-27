@@ -1,0 +1,64 @@
+.menu-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+.background-image {
+  width: 30vw;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+i {
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.trabalhos-container {
+  background-color: black;
+}
+
+.quem-somos-container {
+  background-color: white;
+}
+
+.contactos-container {
+  background-color: $yellow;
+}
+
+.btn-trabalhos {
+  border: 3px solid white;
+  color: white !important;
+}
+
+.btn-quem-somos {
+  border: 3px solid black;
+  color: black !important;
+}
+
+.btn-contactos {
+  border: 3px solid black;
+  color: black !important;
+}
+
+.eventos-container {
+  background-color: black;
+}
+
+.casamentos-container {
+  background-color: white;
+}
+
+.institucional-container {
+  background-color: $yellow;
+}
+
+.btn-eventos {
+  border: 3px solid white;
+  color: white !important;
+}
+
