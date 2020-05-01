@@ -13,6 +13,10 @@
   transform: translate(-50%, -50%);
 }
 
+.menu-btn-position {
+  height: 65%;
+}
+
 i {
   padding-left: 10px;
   font-size: 24px;
@@ -30,21 +34,6 @@ i {
   background-color: $yellow;
 }
 
-.btn-trabalhos {
-  border: 3px solid white;
-  color: white !important;
-}
-
-.btn-quem-somos {
-  border: 3px solid black;
-  color: black !important;
-}
-
-.btn-contactos {
-  border: 3px solid black;
-  color: black !important;
-}
-
 .eventos-container {
   background-color: black;
 }
@@ -55,10 +44,5 @@ i {
 
 .institucional-container {
   background-color: $yellow;
-}
-
-.btn-eventos {
-  border: 3px solid white;
-  color: white !important;
 }
 

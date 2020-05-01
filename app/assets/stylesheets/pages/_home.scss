@@ -14,6 +14,11 @@ html {
 .landing-container {
   text-align: center;
   height: 100vh;
+  background-color: $yellow;
+}
+
+.landing-position {
+  height: 65%;
 }
 
 i {
