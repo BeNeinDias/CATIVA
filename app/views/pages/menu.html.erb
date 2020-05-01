@@ -1,21 +1,63 @@
-<div class="menu-container trabalhos-container">
-  <img src="/assets/Cativa-Logo-White-Yellow-Prio.png", class="background-image" />
-  <div class="menu-btn-position"></div>
-  <div class="btn btn-menu btn-trabalhos yellow-white">
-    <a href="menu-trabalhos" class="text-decoration-none text-reset">Trabalhos:</a>
+<script type="text/javascript">
+  (function() {
+    ('.carousel').carousel({interval: false});
+
+    ('.carousel').carousel('pause');
+
+    (document).off('.bs.carousel.data-api');
+
+    ('.carousel a').on('click', function (ev) {
+        if ( $(ev.currentTarget).hasClass('right')) {
+            ('.carousel').carousel('next');
+        }
+
+        if ( $(ev.currentTarget).hasClass('left')) {
+            ('.carousel').carousel('prev');
+        }
+    })
+});
+</script>
+
+
+<div class="menu-container">
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner menu-container">
+      <div class="carousel-item active menu-container trabalhos-container" data-interval="false" data-wrap="false">
+        <img src="/assets/Cativa-Logo-White-Yellow-Prio.png" class="d-block background-image" alt="...">
+        <div class="menu-btn-position"></div>
+        <div class="btn btn-menu btn-trabalhos yellow-white">
+          <a href="menu-trabalhos" class="text-decoration-none text-reset">Trabalhos:</a>
+        </div>
+      </div>
+      <div class="carousel-item menu-container quem-somos-container" data-interval="false" data-wrap="false">
+        <img src="/assets/Cativa-Logo-Black-Yellow-Prio.png" class="d-block background-image" alt="...">
+        <div class="menu-btn-position"></div>
+        <div class="btn btn-menu btn-quem-somos black-white">
+          <a href="about" class="text-decoration-none text-reset">Quem somos:</a>
+        </div>
+      </div>
+      <div class="carousel-item menu-container contactos-container" data-interval="false" data-wrap="false">
+        <img src="/assets/Cativa-Logo-Black-White.png" class="d-block background-image" alt="...">
+        <div class="menu-btn-position"></div>
+        <div class="btn btn-menu btn-contactos white-black">
+          <a href="contactos" class="text-decoration-none text-reset">Contactos:</a>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
 </div>
-<div class="menu-container quem-somos-container">
-  <img src="/assets/Cativa-Logo-Black-Yellow-Prio.png", class="background-image" />
-  <div class="menu-btn-position"></div>
-  <div class="btn btn-menu btn-quem-somos black-white">
-    <a href="about" class="text-decoration-none text-reset">Quem somos:</a>
-  </div>
-</div>
-<div class="menu-container contactos-container">
-  <img src="/assets/Cativa-Logo-Black-White.png", class="background-image" />
-  <div class="menu-btn-position"></div>
-  <div class="btn btn-menu btn-contactos white-black">
-    <a href="contactos" class="text-decoration-none text-reset">Contactos:</a>
-  </div>
-</div>
+
+
+
+
+
+
+
